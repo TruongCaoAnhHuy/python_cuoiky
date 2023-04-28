@@ -1,0 +1,39 @@
+{% extends 'home/base.html' %} 
+
+{% block title %}Contact{% endblock %} 
+
+{% block content %}
+{% load static %}
+
+<section class="contact" id="contact">
+  <h1 class="heading"><span>contact</span> us</h1>
+
+  <div class="row">
+    <iframe
+      class="map"
+      src="https://maps.google.com/maps?q=Hồ Chí Minh&t=&z=10&ie=UTF8&iwloc=&output=embed"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+
+    <form action="">
+      <h3>get in touch</h3>
+      <input type="text" placeholder="your name" class="box" />
+      <input type="email" placeholder="your email" class="box" />
+      <input type="tel" placeholder="subject" class="box" />
+      <textarea
+        placeholder="your message"
+        class="box"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <input type="submit" value="send message" class="btn" />
+    </form>
+  </div>
+</section>
+
+{% endblock %}
