@@ -134,7 +134,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:rgba(255,255,255,.9);
+    background: url('../images/home-img.png') no-repeat fixed center;
     z-index: 10000;
 }
 
@@ -150,7 +150,7 @@ section{
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border:var(--border);
-    background: #fff;
+    background: #ffffff;
 }
 
 .login-form-container form .buttons{
