@@ -4,6 +4,7 @@
     --yellow:#2027e0;
     --light-yellow:#ffee80;
     --black:#130f40;
+    --white:#ffffff;
     --light-color:#666;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --border:.1rem solid rgba(0,0,0,.1);
@@ -135,6 +136,7 @@ section{
     align-items: center;
     justify-content: center;
     background: url('../images/home-img.png') no-repeat fixed center;
+    background-size:contain ;
     z-index: 10000;
 }
 
@@ -150,7 +152,7 @@ section{
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border:var(--border);
-    background: #ffffff;
+    background: #00000099;
 }
 
 .login-form-container form .buttons{
@@ -179,7 +181,7 @@ section{
 .login-form-container form p{
     padding:1rem 0;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:var(--white);
 }
 
 .login-form-container form p a{
@@ -190,7 +192,7 @@ section{
 .login-form-container form h3{
     padding-bottom:1rem;
     font-size: 2.5rem;
-    color:var(--black);
+    color:var(--white);
     text-transform: uppercase;
 }
 
